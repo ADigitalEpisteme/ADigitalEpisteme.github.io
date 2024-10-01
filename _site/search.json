@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "content/Atelier_python_01.html#les-principes-de-python",
+    "href": "content/Atelier_python_01.html#les-principes-de-python",
+    "title": "Atelier 01",
+    "section": "Les principes de Python",
+    "text": "Les principes de Python\n\n\nimport this\n\n&gt; Beautiful is better than ugly.\n&gt; Explicit is better than implicit.\n&gt; Simple is better than complex.\n&gt; Complex is better than complicated.\n&gt; Flat is better than nested.\n&gt; Sparse is better than dense.\n&gt; Readability counts.\n&gt; Special cases aren't special enough to break the rules.\n&gt; Although practicality beats purity.\n&gt; Errors should never pass silently.\n&gt; Unless explicitly silenced.\n&gt; In the face of ambiguity, refuse the temptation to guess.\n&gt; There should be one-- and preferably only one --obvious way to do it.\n&gt; Although that way may not be obvious at first unless you're Dutch.\n&gt; Now is better than never.\n&gt; Although never is often better than *right* now.\n&gt; If the implementation is hard to explain, it's a bad idea.\n&gt; If the implementation is easy to explain, it may be a good idea.\n&gt; Namespaces are one honking great idea -- let's do more of those!"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#python-1",
+    "href": "content/Atelier_python_01.html#python-1",
+    "title": "Atelier 01",
+    "section": "Python",
+    "text": "Python\n\nHaut niveau\nProgrammation impérative\nOrienté objet\nGestion automatique de la mémoire\nForte communauté\nNombreuses bibliothèques spécialisées"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#types",
+    "href": "content/Atelier_python_01.html#types",
+    "title": "Atelier 01",
+    "section": "Types",
+    "text": "Types\n\nstring\nint\nfloat\nbool\n…"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#opérateurs-int-et-float",
+    "href": "content/Atelier_python_01.html#opérateurs-int-et-float",
+    "title": "Atelier 01",
+    "section": "Opérateurs (int et float)",
+    "text": "Opérateurs (int et float)\n\n+, -, /, *\n//, %, **\n()\n+=, -="
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#opérateurs-de-comparaison",
+    "href": "content/Atelier_python_01.html#opérateurs-de-comparaison",
+    "title": "Atelier 01",
+    "section": "Opérateurs de comparaison",
+    "text": "Opérateurs de comparaison\n\n==, !=\n&gt;, &lt;, &gt;=, &lt;=\nand, or, not\nin"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#déclarer-et-imprimer",
+    "href": "content/Atelier_python_01.html#déclarer-et-imprimer",
+    "title": "Atelier 01",
+    "section": "Déclarer et imprimer",
+    "text": "Déclarer et imprimer\nx = True print(x)\n\n\nTrue\n\n\nLa structure de “print” : print(*objects, sep=’ ‘, end=’’)\nAussi: nom = input(“Écrivez ici votre nom :”)"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#listes",
+    "href": "content/Atelier_python_01.html#listes",
+    "title": "Atelier 01",
+    "section": "Listes",
+    "text": "Listes\nListe d’éléments ordonnés.\nliste = [1, 4.6, True, “Hello world!”] print(liste)\n\n\n[1, 4.6, True, 'Hello world!']\n\n\n\n\n\n\n\n\nNote\n\n\nNotes : - Un type string peut être considérée comme une liste! - Grâce aux indentations, on peut écrire un objet sur plusieurs lignes."
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#accéder-aux-éléments-dune-liste",
+    "href": "content/Atelier_python_01.html#accéder-aux-éléments-dune-liste",
+    "title": "Atelier 01",
+    "section": "Accéder aux éléments d’une liste",
+    "text": "Accéder aux éléments d’une liste\n\n[n], [-n]\n[n:m], [n:], [:n]\n[::n]\n[::-1]"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#fonctions",
+    "href": "content/Atelier_python_01.html#fonctions",
+    "title": "Atelier 01",
+    "section": "Fonctions",
+    "text": "Fonctions\n\nappend\npop\nremove\nindex\nextend\n\nAutres opérations\n\nlen\ndel"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#tuples",
+    "href": "content/Atelier_python_01.html#tuples",
+    "title": "Atelier 01",
+    "section": "Tuples",
+    "text": "Tuples\n(1, 5.0, True, “Hello World!”)\nListes immutables créées par défauts par Python.\n\nAccepte la plupart des opérations des listes."
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#dictionnaires",
+    "href": "content/Atelier_python_01.html#dictionnaires",
+    "title": "Atelier 01",
+    "section": "Dictionnaires",
+    "text": "Dictionnaires\nAssocient une clé à des valeurs ou objets.\n\nCréés en utilisant “dict” ou la structure {“clé_1”: élément_1, “clé_2”: élément_2}\nModifiés en utilisant les clés entre crochets : dict[“clé”]\n\nAutres fonctions\n\nget\npop\ndel"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#autres-types-pertinents",
+    "href": "content/Atelier_python_01.html#autres-types-pertinents",
+    "title": "Atelier 01",
+    "section": "Autres types pertinents",
+    "text": "Autres types pertinents\nrange(start, stop, step)\nx = range(0, 10, 2)\n\n\n0\n2\n4\n6\n8\n\n\nset"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#conditions",
+    "href": "content/Atelier_python_01.html#conditions",
+    "title": "Atelier 01",
+    "section": "Conditions",
+    "text": "Conditions\n\nConditions :\n\nif\nelif\nelse\nmatch"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#boucles",
+    "href": "content/Atelier_python_01.html#boucles",
+    "title": "Atelier 01",
+    "section": "Boucles",
+    "text": "Boucles\n\nfor\n\nPossible d’itérer sur des objets plus complexes comme un dictionnaire!\n\nwhile\nTermes supplémentaires : break, continue\n\nfor i in range(0, 10, 1): print(i)\n\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n\n\nimport random\ndone = False\nwhile not done: done = random.choice([True, False])"
+  },
+  {
+    "objectID": "content/Atelier_python_01.html#essais-et-contextes",
+    "href": "content/Atelier_python_01.html#essais-et-contextes",
+    "title": "Atelier 01",
+    "section": "Essais et contextes",
+    "text": "Essais et contextes\nEssayer et donner des alternatives en cas d’erreur :\n\ntry\nexcept\nfinally\n\n\n\n\nAtelier 01"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Digital Episteme",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nAtelier 01"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
