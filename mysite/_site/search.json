@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "A Digital Episteme",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nAtelier 01"
-  },
-  {
     "objectID": "content/Atelier_python_01.html#les-principes-de-python",
     "href": "content/Atelier_python_01.html#les-principes-de-python",
     "title": "Atelier 01",
@@ -117,5 +103,19 @@
     "title": "Atelier 01",
     "section": "Essais et contextes",
     "text": "Essais et contextes\nEssayer et donner des alternatives en cas d’erreur :\n\ntry\nexcept\nfinally\n\n\n\n\nAtelier 01"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Digital Episteme",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nAtelier 01"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
